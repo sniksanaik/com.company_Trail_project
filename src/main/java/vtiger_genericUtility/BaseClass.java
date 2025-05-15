@@ -49,6 +49,7 @@ public void beforeclassconfig(/*String BROWSER*/) throws IOException {
 
 	System.out.println("-------------------------------");
 	
+	String browser=System.getProperty("browser");
 	
 	if(BROWSER.equalsIgnoreCase("chrome")) {
 		driver=new ChromeDriver();
