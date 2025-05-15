@@ -51,11 +51,11 @@ public void beforeclassconfig(/*String BROWSER*/) throws IOException {
 	
 	String browser=System.getProperty("browser");
 	
-	if(BROWSER.equalsIgnoreCase("chrome")) {
+	if(browser.equalsIgnoreCase("chrome")) {
 		driver=new ChromeDriver();
-	}else if(BROWSER.equalsIgnoreCase("edge")) {
+	}else if(browser.equalsIgnoreCase("edge")) {
 	driver=new EdgeDriver();
-	}else if(BROWSER.equalsIgnoreCase("firefox")) {
+	}else if(browser.equalsIgnoreCase("firefox")) {
 		driver=new FirefoxDriver();
 		}
 	sDriver=driver;
