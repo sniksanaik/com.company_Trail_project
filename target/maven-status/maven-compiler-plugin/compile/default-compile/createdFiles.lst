@@ -1,0 +1,14 @@
+vtiger_ObjectRepository\ContactPage.class
+vtiger_genericUtility\JaveUtility.class
+vtiger_ObjectRepository\Create_NewContact_Page.class
+vtiger_genericUtility\ExcelFileUtility.class
+vtiger_genericUtility\PropertyfileUtility.class
+vtiger_ObjectRepository\HomePage.class
+vtiger_ObjectRepository\Create_new_Organization.class
+vtiger_ObjectRepository\ContactInformPage.class
+vtiger_genericUtility\WebDriverUtility.class
+vtiger_genericUtility\ListnersImplementation.class
+vtiger_ObjectRepository\OrganizationPage.class
+vtiger_genericUtility\BaseClass.class
+vtiger_ObjectRepository\LoginPage.class
+vtiger_ObjectRepository\Organization_Info_Page.class
