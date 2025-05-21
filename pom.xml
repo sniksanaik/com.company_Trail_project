@@ -76,8 +76,13 @@
 						<version>3.3.1</version>
 						<configuration>
 							<suiteXmlFiles>
-								<suiteXmlFile>batch_contact_suit.xml</suiteXmlFile>
+								<!-- <suiteXmlFile>batch_contact_suit.xml</suiteXmlFile>-->
+								<suiteXmlFile>${xmlFiles}</suiteXmlFile>
 							</suiteXmlFiles>
+							<systemPropertyVariable>
+								<executionBrowser>${browser}</executionBrowser>
+								<appURL>${url}</appURL>
+							</systemPropertyVariable>
 						</configuration>
 					</plugin>
 				</plugins>
